@@ -16,3 +16,12 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+// $(document).ready(function() {
+//   $("#stock-lookup-form").on("ajax:success", function(event) {
+//     [type, status, data] = event.detail;
+
+//     // const { xhr } = event.detail;
+//     $("#results").html(data.responseText);
+//   });
+// });
